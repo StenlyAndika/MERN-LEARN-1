@@ -1,0 +1,37 @@
+GET http://localhost:5000/users
+
+###
+GET http://localhost:5000/users/641c0b0a954472cbe7b1b705
+
+###
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "nama": "Andika Stenly",
+    "email": "stenly andika@gmail.com",
+    "nohp": "081315414388"
+}
+
+###
+PUT http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "nama": "Andika Stenly",
+    "email": "stenly andika@gmail.com",
+    "nohp": "081315414388"
+}
+
+###
+PATCH http://localhost:5000/users/641c0b0a954472cbe7b1b705
+Content-Type: application/json
+
+{
+    "nama": "Stendika",
+    "email": "stenly andika@gmail.com",
+    "nohp": "081315414388"
+}
+
+###
+DELETE http://localhost:5000/users/641c0b39954472cbe7b1b708
