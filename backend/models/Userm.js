@@ -11,6 +11,9 @@ const User = mongoose.Schema({
     },
     nohp: {
         type: String
+    },
+    jekel: {
+        type: String
     }
 });
 
